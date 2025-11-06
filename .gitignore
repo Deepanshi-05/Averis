@@ -1,44 +1,85 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# -------------------------------
+# 🧠 Core Next.js build folders
+# -------------------------------
+.next/
+out/
+dist/
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+# -------------------------------
+# 📦 Node modules & dependency files
+# -------------------------------
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
 
-# testing
-/coverage
+# -------------------------------
+# ⚙️ Environment & secret files
+# -------------------------------
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
 
-# next.js
-/.next/
-/out/
+# -------------------------------
+# 🖼️ Image / Upload cache
+# -------------------------------
+public/uploads/
+uploads/
+tmp/
+.cache/
+*.log
 
-# production
-/build
-
-# misc
+# -------------------------------
+# 🧱 OS / Editor system files
+# -------------------------------
 .DS_Store
-*.pem
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*.tmp
+*.orig
+.idea/
+.vscode/
+*.code-workspace
 
-# debug
+# -------------------------------
+# 🔑 Clerk / ImageKit / Gemini
+# (Secrets are loaded from .env only)
+# -------------------------------
+/clerk.config.js
+/vercel/
+*.pem
+*.key
+
+# -------------------------------
+# 🧪 Testing / Coverage
+# -------------------------------
+coverage/
+*.lcov
+
+# -------------------------------
+# 🚀 Build artifacts
+# -------------------------------
+*.tsbuildinfo
+.next/
+*.vercel
+
+# -------------------------------
+# 🧰 Logs & Debug
+# -------------------------------
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
-
-# clerk configuration (can include secrets)
-/.clerk/
+# -------------------------------
+# 🧠 Misc backups or cache
+# -------------------------------
+*.pid
+*.seed
+*.tgz
+.cache/
