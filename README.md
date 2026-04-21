@@ -105,18 +105,6 @@ http://localhost:3000
 - 🎯 Personalized topic recommendations  
 - 💬 Community interaction features  
 
----
-
-## 📸 Screenshots
-
-### 🎨 Landing Page
-Dynamic hero section with animated cursor effects and CTAs.
-
-### 🧠 Dashboard
-Central hub to manage posts, media, and analytics.
-
-### 🔐 Sign-In/Sign-Up
-Modern authentication flow powered by Clerk.
 
 ---
 
