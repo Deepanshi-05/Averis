@@ -5,7 +5,7 @@ Averis is an **AI-powered content creation platform** that helps creators **writ
 It combines **AI assistance**, **analytics**, and **beautiful UI** — empowering every user to turn their ideas into engaging content.
 
 ---
-🔗 Live Demo: https://averis-blue.vercel.app/
+🔗 Live Demo: https://averis-eight.vercel.app/
 ---
 
 ## 🚀 Features
